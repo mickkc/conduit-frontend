@@ -25,7 +25,5 @@ RUN npm run build --configuration=production
 # Expose the app port
 EXPOSE $APP_PORT
 
-RUN chmod +x entrypoint.sh
-
 # Start the application
 ENTRYPOINT ["sh", "-c", "http-server /app/dist/angular-conduit -p ${APP_PORT}"]
