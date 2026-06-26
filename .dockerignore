@@ -1,0 +1,8 @@
+.env*
+.gitignore
+logo.png
+README.md
+CODE_OF_CONDUCT.md
+.github/
+.husky/
+LICENSE
